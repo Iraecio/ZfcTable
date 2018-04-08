@@ -1,27 +1,29 @@
 {
-    "name": "dudapiotr/zftable",
-    "description": "Flexible tool to generate table",
+    "name": "Iraecio/ZfcTable",
+    "description": "Ferramenta flexivel para gerar tabelas",
     "license": "BSD-3-Clause",
     "keywords": [
-        "zftable",
-        "table"
+        "zfctable",
+        "table",
+        "zend Framework",
+        "zf3"
     ],
     "authors": [
         {
-            "name": "Piotr Duda",
-            "email": "dudapiotrek@gmail.com"
+            "name": "Iraecio",
+            "email": "iraecio@hotmail.com"
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "zendframework/zendframework": ">2.1.3"
+        "php": ">=7.1",
+        "zendframework/zendframework": ">3.0"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "1.5.*"
     },
     "autoload": {
         "psr-0": {
-            "ZfTable": "src/"
+            "ZfcTable": "src/"
         },
         "classmap": [
             "./Module.php"
